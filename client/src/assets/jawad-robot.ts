@@ -1,0 +1,1 @@
+export const jawadRobotImage = "https://0.x.ql0.7c93.replit.dev/attachments/attachment/image_1745442636968.png";
