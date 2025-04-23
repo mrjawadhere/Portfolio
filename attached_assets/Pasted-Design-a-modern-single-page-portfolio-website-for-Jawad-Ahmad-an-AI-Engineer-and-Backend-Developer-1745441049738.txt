@@ -1,0 +1,97 @@
+Design a modern, single-page portfolio website for Jawad Ahmad, an AI Engineer and Backend Developer, currently pursuing a B.S. in Software Engineering at GCUF (2024–2028). The website should highlight his technical skills, projects, and collaboration interests, with a futuristic design theme and smooth animations to enhance user engagement.
+
+🧑‍💼 Personal Information
+Name: Jawad Ahmad
+
+Title: AI Engineer & Backend Developer
+
+Education: B.S. in Software Engineering, Government College University Faisalabad (2024–2028)
+
+Learning Focus: Actively exploring Artifical intelligence, AI-Agents and Data Science
+
+Collaboration Interests: Open to working with AI agents and related projects
+
+🧱 Website Structure & Content
+Hero Section
+
+Dynamic introduction with name, title, and a brief tagline (e.g., “Building intelligent systems with code and curiosity”)
+
+Background animation (e.g., neural network visualization or futuristic digital patterns)
+
+Call-to-action buttons: “View Projects” and “Contact Me”
+
+About Me
+
+Concise bio highlighting your educational background, current learning pursuits, and passion for AI and backend development
+
+Optionally include a professional headshot
+
+Projects
+
+Showcase 3–5 key projects with:
+Model Devolpment (Predictive Ai)
+Object Detection Model
+Jarvis 2.0
+Virtual Mouse
+Face Detection Model
+Project title and brief description
+
+Technologies used
+Python
+TensorFlow
+FastApi
+Links to live demos or GitHub repositories
+
+Visuals or screenshots to illustrate each project
+
+Collaboration Interests
+
+Dedicated section expressing your enthusiasm for collaborating on AI agent projects
+
+Invitation for potential collaborators to reach out via provided contact methods
+
+Contact
+
+Contact form for direct messages
+
+Display of WhatsApp phone number for quick communication
+
+Icons linking to professional profiles:
+
+GitHub: [https://github.com/mrjawadhere]
+
+LinkedIn: [https://www.linkedin.com/in/jwad?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app]
+
+Footer
+
+Simple footer with your name, current year, and a link back to the top of the page
+
+🎨 Design & Aesthetic Preferences
+Theme: Futuristic and tech-oriented
+
+Color Scheme: Dark mode with neon accents (e.g., electric blue, vibrant purple)
+
+Typography: Modern sans-serif fonts (e.g., 'Roboto', 'Montserrat')
+
+Animations:
+
+Smooth transitions between sections
+Cursor Animation
+Interactive hover effects on buttons and project cards
+
+Subtle animations that activate as elements enter the viewport
+
+🛠️ Technical Specifications
+Responsive Design: Ensure compatibility across desktops, tablets, and smartphones
+
+Performance Optimization: Fast loading times with optimized images and assets
+
+Accessibility: Adherence to accessibility standards (e.g., alt text for images, keyboard navigation)
+
+SEO Best Practices: Proper meta tags, descriptive URLs, and structured data for better search engine visibility
+
+📌 Downloadable Resume: Option to download your resume in PDF format
+
+Blog Section (optional): Space to share insights, tutorials, or experiences related to AI and backend development
+
+Testimonials (optional): Section for endorsements or feedback from peers, mentors, or collaborators
