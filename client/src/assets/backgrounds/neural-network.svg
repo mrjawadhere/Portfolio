@@ -1,0 +1,82 @@
+<svg width="800" height="800" viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#9d00ff" stop-opacity="0.2" />
+    </linearGradient>
+  </defs>
+  <g opacity="0.4">
+    <!-- Neural network nodes -->
+    <circle cx="100" cy="150" r="6" fill="#00f2fe" />
+    <circle cx="200" cy="100" r="8" fill="#9d00ff" />
+    <circle cx="300" cy="200" r="5" fill="#00f2fe" />
+    <circle cx="400" cy="120" r="7" fill="#9d00ff" />
+    <circle cx="500" cy="250" r="6" fill="#00f2fe" />
+    <circle cx="600" cy="180" r="8" fill="#9d00ff" />
+    <circle cx="700" cy="220" r="5" fill="#00f2fe" />
+
+    <circle cx="150" cy="300" r="7" fill="#9d00ff" />
+    <circle cx="250" cy="350" r="5" fill="#00f2fe" />
+    <circle cx="350" cy="320" r="8" fill="#9d00ff" />
+    <circle cx="450" cy="380" r="6" fill="#00f2fe" />
+    <circle cx="550" cy="330" r="7" fill="#9d00ff" />
+    <circle cx="650" cy="360" r="5" fill="#00f2fe" />
+
+    <circle cx="120" cy="450" r="8" fill="#9d00ff" />
+    <circle cx="220" cy="480" r="6" fill="#00f2fe" />
+    <circle cx="320" cy="440" r="7" fill="#9d00ff" />
+    <circle cx="420" cy="500" r="5" fill="#00f2fe" />
+    <circle cx="520" cy="460" r="8" fill="#9d00ff" />
+    <circle cx="620" cy="490" r="6" fill="#00f2fe" />
+
+    <circle cx="170" cy="550" r="5" fill="#00f2fe" />
+    <circle cx="270" cy="580" r="7" fill="#9d00ff" />
+    <circle cx="370" cy="540" r="6" fill="#00f2fe" />
+    <circle cx="470" cy="600" r="8" fill="#9d00ff" />
+    <circle cx="570" cy="560" r="5" fill="#00f2fe" />
+    <circle cx="670" cy="590" r="7" fill="#9d00ff" />
+
+    <circle cx="150" cy="650" r="8" fill="#9d00ff" />
+    <circle cx="250" cy="620" r="6" fill="#00f2fe" />
+    <circle cx="350" cy="670" r="7" fill="#9d00ff" />
+    <circle cx="450" cy="630" r="5" fill="#00f2fe" />
+    <circle cx="550" cy="680" r="8" fill="#9d00ff" />
+    <circle cx="650" cy="640" r="6" fill="#00f2fe" />
+
+    <!-- Neural network connections -->
+    <line x1="100" y1="150" x2="200" y2="100" stroke="url(#grad1)" stroke-width="1" />
+    <line x1="200" y1="100" x2="300" y2="200" stroke="url(#grad1)" stroke-width="1" />
+    <line x1="300" y1="200" x2="400" y2="120" stroke="url(#grad1)" stroke-width="1" />
+    <line x1="400" y1="120" x2="500" y2="250" stroke="url(#grad1)" stroke-width="1" />
+    <line x1="500" y1="250" x2="600" y2="180" stroke="url(#grad1)" stroke-width="1" />
+    <line x1="600" y1="180" x2="700" y2="220" stroke="url(#grad1)" stroke-width="1" />
+
+    <line x1="100" y1="150" x2="150" y2="300" stroke="url(#grad1)" stroke-width="1" />
+    <line x1="200" y1="100" x2="250" y2="350" stroke="url(#grad1)" stroke-width="1" />
+    <line x1="300" y1="200" x2="350" y2="320" stroke="url(#grad1)" stroke-width="1" />
+    <line x1="400" y1="120" x2="450" y2="380" stroke="url(#grad1)" stroke-width="1" />
+    <line x1="500" y1="250" x2="550" y2="330" stroke="url(#grad1)" stroke-width="1" />
+    <line x1="600" y1="180" x2="650" y2="360" stroke="url(#grad1)" stroke-width="1" />
+
+    <line x1="150" y1="300" x2="120" y2="450" stroke="url(#grad1)" stroke-width="1" />
+    <line x1="250" y1="350" x2="220" y2="480" stroke="url(#grad1)" stroke-width="1" />
+    <line x1="350" y1="320" x2="320" y2="440" stroke="url(#grad1)" stroke-width="1" />
+    <line x1="450" y1="380" x2="420" y2="500" stroke="url(#grad1)" stroke-width="1" />
+    <line x1="550" y1="330" x2="520" y2="460" stroke="url(#grad1)" stroke-width="1" />
+    <line x1="650" y1="360" x2="620" y2="490" stroke="url(#grad1)" stroke-width="1" />
+
+    <line x1="120" y1="450" x2="170" y2="550" stroke="url(#grad1)" stroke-width="1" />
+    <line x1="220" y1="480" x2="270" y2="580" stroke="url(#grad1)" stroke-width="1" />
+    <line x1="320" y1="440" x2="370" y2="540" stroke="url(#grad1)" stroke-width="1" />
+    <line x1="420" y1="500" x2="470" y2="600" stroke="url(#grad1)" stroke-width="1" />
+    <line x1="520" y1="460" x2="570" y2="560" stroke="url(#grad1)" stroke-width="1" />
+    <line x1="620" y1="490" x2="670" y2="590" stroke="url(#grad1)" stroke-width="1" />
+
+    <line x1="170" y1="550" x2="150" y2="650" stroke="url(#grad1)" stroke-width="1" />
+    <line x1="270" y1="580" x2="250" y2="620" stroke="url(#grad1)" stroke-width="1" />
+    <line x1="370" y1="540" x2="350" y2="670" stroke="url(#grad1)" stroke-width="1" />
+    <line x1="470" y1="600" x2="450" y2="630" stroke="url(#grad1)" stroke-width="1" />
+    <line x1="570" y1="560" x2="550" y2="680" stroke="url(#grad1)" stroke-width="1" />
+    <line x1="670" y1="590" x2="650" y2="640" stroke="url(#grad1)" stroke-width="1" />
+  </g>
+</svg>

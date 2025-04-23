@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Roboto:wght@300;400;500;700&family=Roboto+Mono&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 240 10% 3.9%;
+  --foreground: 0 0% 98%;
+  --muted: 240 3.7% 15.9%;
+  --muted-foreground: 240 5% 64.9%;
+  --popover: 240 10% 3.9%;
+  --popover-foreground: 0 0% 98%;
+  --card: 240 10% 3.9%;
+  --card-foreground: 0 0% 98%;
+  --border: 240 3.7% 15.9%;
+  --input: 240 3.7% 15.9%;
+  --primary: 207 90% 54%;
+  --primary-foreground: 211 100% 99%;
+  --secondary: 240 3.7% 15.9%;
+  --secondary-foreground: 0 0% 98%;
+  --accent: 240 3.7% 15.9%;
+  --accent-foreground: 0 0% 98%;
+  --destructive: 0 62.8% 30.6%;
+  --destructive-foreground: 0 0% 98%;
+  --ring: 240 4.9% 83.9%;
+  --radius: 0.5rem;
+  
+  /* Custom colors for the portfolio */
+  --neon-blue: 187 100% 50%;
+  --neon-purple: 273 100% 50%;
+  --bg-primary: 240 10% 3.9%;
+  --bg-secondary: 249 15% 15%;
+  --bg-tertiary: 245 16% 13%;
+  --text-primary: 0 0% 89%;
+  --text-secondary: 249 14% 71%;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+    font-family: 'Roboto', sans-serif;
+    background-color: #050816;
+    color: #e4e4e4;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  code, pre {
+    font-family: 'Roboto Mono', monospace;
+  }
+}
+
+/* Custom cursor classes */
+body {
+  cursor: none;
+}
+
+a, button, [role="button"] {
+  cursor: none;
+}
+
+/* Animation classes */
+.animate-blob {
+  animation: blob 7s infinite;
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animate-glow {
+  animation: glow 2s ease-in-out infinite alternate;
+}
+
+.animate-slowfade {
+  animation: slowfade 2s ease-in-out;
+}
+
+@keyframes blob {
+  0% { transform: translate(0px, 0px) scale(1); }
+  33% { transform: translate(30px, -50px) scale(1.1); }
+  66% { transform: translate(-20px, 20px) scale(0.9); }
+  100% { transform: translate(0px, 0px) scale(1); }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+}
+
+@keyframes glow {
+  0% { box-shadow: 0 0 5px rgba(0, 242, 254, 0.7), 0 0 10px rgba(0, 242, 254, 0.5); }
+  100% { box-shadow: 0 0 20px rgba(0, 242, 254, 0.9), 0 0 30px rgba(157, 0, 255, 0.7); }
+}
+
+@keyframes slowfade {
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+/* Hide scrollbar but allow scrolling */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Animation delays */
+.animation-delay-2000 {
+  animation-delay: 2s;
+}
+
+.animation-delay-4000 {
+  animation-delay: 4s;
+}
+
+/* Creating gradient borders */
+.section-divider {
+  height: 1px;
+  background: linear-gradient(90deg, rgba(0,242,254,0), rgba(0,242,254,0.7), rgba(157,0,255,0.7), rgba(157,0,255,0));
+}
+
+/* Glow hover effect */
+.glow-on-hover:hover {
+  animation: glow 1.5s ease-in-out infinite alternate;
+}

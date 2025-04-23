@@ -1,0 +1,58 @@
+<svg width="800" height="800" viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#9d00ff" stop-opacity="0.3" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="800" fill="#050816" />
+  
+  <!-- Grid pattern -->
+  <g opacity="0.2">
+    <line x1="0" y1="50" x2="800" y2="50" stroke="#00f2fe" stroke-width="0.5" />
+    <line x1="0" y1="150" x2="800" y2="150" stroke="#00f2fe" stroke-width="0.5" />
+    <line x1="0" y1="250" x2="800" y2="250" stroke="#00f2fe" stroke-width="0.5" />
+    <line x1="0" y1="350" x2="800" y2="350" stroke="#00f2fe" stroke-width="0.5" />
+    <line x1="0" y1="450" x2="800" y2="450" stroke="#00f2fe" stroke-width="0.5" />
+    <line x1="0" y1="550" x2="800" y2="550" stroke="#00f2fe" stroke-width="0.5" />
+    <line x1="0" y1="650" x2="800" y2="650" stroke="#00f2fe" stroke-width="0.5" />
+    <line x1="0" y1="750" x2="800" y2="750" stroke="#00f2fe" stroke-width="0.5" />
+    
+    <line x1="50" y1="0" x2="50" y2="800" stroke="#9d00ff" stroke-width="0.5" />
+    <line x1="150" y1="0" x2="150" y2="800" stroke="#9d00ff" stroke-width="0.5" />
+    <line x1="250" y1="0" x2="250" y2="800" stroke="#9d00ff" stroke-width="0.5" />
+    <line x1="350" y1="0" x2="350" y2="800" stroke="#9d00ff" stroke-width="0.5" />
+    <line x1="450" y1="0" x2="450" y2="800" stroke="#9d00ff" stroke-width="0.5" />
+    <line x1="550" y1="0" x2="550" y2="800" stroke="#9d00ff" stroke-width="0.5" />
+    <line x1="650" y1="0" x2="650" y2="800" stroke="#9d00ff" stroke-width="0.5" />
+    <line x1="750" y1="0" x2="750" y2="800" stroke="#9d00ff" stroke-width="0.5" />
+  </g>
+  
+  <!-- Digital circuit pattern -->
+  <g opacity="0.5">
+    <path d="M0,100 L200,100 L250,150 L400,150 L450,200 L600,200 L650,250 L800,250" stroke="url(#grad1)" stroke-width="1.5" fill="none" />
+    <path d="M0,300 L150,300 L200,350 L350,350 L400,400 L550,400 L600,450 L800,450" stroke="url(#grad1)" stroke-width="1.5" fill="none" />
+    <path d="M0,500 L100,500 L150,550 L300,550 L350,600 L500,600 L550,650 L800,650" stroke="url(#grad1)" stroke-width="1.5" fill="none" />
+    
+    <circle cx="200" cy="100" r="4" fill="#00f2fe" />
+    <circle cx="250" cy="150" r="4" fill="#00f2fe" />
+    <circle cx="400" cy="150" r="4" fill="#00f2fe" />
+    <circle cx="450" cy="200" r="4" fill="#00f2fe" />
+    <circle cx="600" cy="200" r="4" fill="#00f2fe" />
+    <circle cx="650" cy="250" r="4" fill="#00f2fe" />
+    
+    <circle cx="150" cy="300" r="4" fill="#9d00ff" />
+    <circle cx="200" cy="350" r="4" fill="#9d00ff" />
+    <circle cx="350" cy="350" r="4" fill="#9d00ff" />
+    <circle cx="400" cy="400" r="4" fill="#9d00ff" />
+    <circle cx="550" cy="400" r="4" fill="#9d00ff" />
+    <circle cx="600" cy="450" r="4" fill="#9d00ff" />
+    
+    <circle cx="100" cy="500" r="4" fill="#00f2fe" />
+    <circle cx="150" cy="550" r="4" fill="#00f2fe" />
+    <circle cx="300" cy="550" r="4" fill="#00f2fe" />
+    <circle cx="350" cy="600" r="4" fill="#00f2fe" />
+    <circle cx="500" cy="600" r="4" fill="#00f2fe" />
+    <circle cx="550" cy="650" r="4" fill="#00f2fe" />
+  </g>
+</svg>
