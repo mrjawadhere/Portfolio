@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion';
 import { FaGraduationCap, FaBrain, FaUsers, FaArrowRight } from 'react-icons/fa';
-import neuralNetworkSvg from '../../assets/backgrounds/neural-network.svg';
 
 const AboutSection = () => {
   const fadeInUpVariants = {
@@ -41,8 +40,8 @@ const AboutSection = () => {
             <div className="relative rounded-lg overflow-hidden border border-[#00f2fe]/30 shadow-xl shadow-[#9d00ff]/10 transform md:rotate-3 hover:rotate-0 transition-all duration-500">
               <div className="absolute inset-0 bg-gradient-to-br from-[#00f2fe]/20 to-[#9d00ff]/20 mix-blend-overlay"></div>
               <img 
-                src={neuralNetworkSvg} 
-                alt="Futuristic Visualization" 
+                src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?q=80&w=2865&auto=format&fit=crop" 
+                alt="Jawad Ahmad AI Engineer Portrait" 
                 className="w-full h-auto object-cover" 
               />
             </div>

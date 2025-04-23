@@ -1,6 +1,8 @@
 import { useEffect } from 'react';
 import HeroSection from '../components/sections/HeroSection';
 import AboutSection from '../components/sections/AboutSection';
+import SkillsSection from '../components/sections/SkillsSection';
+import ExperienceSection from '../components/sections/ExperienceSection';
 import ProjectsSection from '../components/sections/ProjectsSection';
 import CollaborationSection from '../components/sections/CollaborationSection';
 import ContactSection from '../components/sections/ContactSection';
@@ -51,6 +53,8 @@ const HomePage = () => {
       <Navbar />
       <HeroSection />
       <AboutSection />
+      <SkillsSection />
+      <ExperienceSection />
       <ProjectsSection />
       <CollaborationSection />
       <ContactSection />
