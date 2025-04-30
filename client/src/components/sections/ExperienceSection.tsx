@@ -56,7 +56,7 @@ const ExperienceSection = () => {
                 <p className="text-[#00f2fe] font-medium mb-2">DeveloperHub Software House</p>
                 <div className="flex items-center justify-end text-[#aaa6c3] mb-2">
                   <FaCalendarAlt className="mr-2 text-[#9d00ff]" />
-                  <span>2023 - Present</span>
+                  <span>2025 - Present</span>
                 </div>
                 <div className="flex items-center justify-end text-[#aaa6c3]">
                   <FaMapMarkerAlt className="mr-2 text-[#9d00ff]" />

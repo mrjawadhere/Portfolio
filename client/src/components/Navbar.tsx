@@ -56,10 +56,10 @@ const Navbar = () => {
             className="text-2xl font-bold font-montserrat tracking-wider text-text-primary group"
           >
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#00f2fe] to-[#9d00ff]">
-              JAWAD
+              
             </span>
             <span className="text-[#e4e4e4] transition-all duration-300 group-hover:text-[#00f2fe]">
-              .dev
+              Dr. Jwad
             </span>
           </a>
 
