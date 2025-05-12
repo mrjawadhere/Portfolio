@@ -102,7 +102,7 @@ const ContactSection = () => {
                     rel="noopener noreferrer" 
                     className="text-[#9d00ff] hover:text-[#00f2fe] transition-colors duration-300"
                   >
-                    github.com/mrjawadhere
+                    mrjawadhere
                   </a>
                 </div>
               </div>
