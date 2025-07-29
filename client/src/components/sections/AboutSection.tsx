@@ -40,8 +40,7 @@ const AboutSection = () => {
             <div className="relative rounded-lg overflow-hidden border border-[#00f2fe]/30 shadow-xl shadow-[#9d00ff]/10 transform md:rotate-3 hover:rotate-0 transition-all duration-500">
               <div className="absolute inset-0 bg-gradient-to-br from-[#00f2fe]/20 to-[#9d00ff]/20 mix-blend-overlay"></div>
               <img 
-                src="attached_assets\image_1745442636968.png" 
-                alt="Jawad Ahmad AI Engineer Portrait" 
+                src="client\public\jawad-robot.jpg" 
                 className="w-full h-auto object-cover" 
               />
             </div>
